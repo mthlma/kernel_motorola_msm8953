@@ -114,6 +114,12 @@ config IBM_ASM
 	  for information on the specific driver level and support statement
 	  for your IBM server.
 
+config DTV_FC8300
+	tristate "FC8300 DTV module support"
+	default n
+	help
+	  Enable/disable FC8300 DTV module support
+
 config PHANTOM
 	tristate "Sensable PHANToM (PCI)"
 	depends on PCI
